@@ -1,7 +1,22 @@
 # 🛍️ Black Friday Purchase Prediction
 
 > An end‑to‑end Machine Learning web application that predicts a customer’s **purchase amount** using demographic and product information — built with Python, XGBoost, and Streamlit, and deployed to the cloud for real‑time inference.
+> Customer Behavior Analysis
+The project focuses on understanding the "how" and "why" behind customer spending.
 
+Spending Patterns: It analyzes how much different groups of people spend on specific product categories.
+
+Demographic Influence: The project examines how factors like Age, Gender, and Occupation directly correlate with total purchase amounts.
+
+Product Preferences: It identifies which product categories (Product_Category_1, 2, or 3) drive the most volume during high-traffic events like Black Friday.
+Customer Behavior Analysis
+The project focuses on understanding the "how" and "why" behind customer spending.
+
+Spending Patterns: It analyzes how much different groups of people spend on specific product categories.
+
+Demographic Influence: The project examines how factors like Age, Gender, and Occupation directly correlate with total purchase amounts.
+
+Product Preferences: It identifies which product categories (Product_Category_1, 2, or 3) drive the most volume during high-traffic events like Black Friday.
 🔗 **Live App:** [https://ashutoshrana434-black-friday-sales-prediction-app-zif3ay.streamlit.app/](https://ashutoshrana434-black-friday-sales-prediction-app-zif3ay.streamlit.app/)
 
 ---<img width="1880" height="1050" alt="image" src="https://github.com/user-attachments/assets/2a43be5a-fed7-4512-b5ec-cec2bc0c0741" />
