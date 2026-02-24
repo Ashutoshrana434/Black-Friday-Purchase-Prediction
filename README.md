@@ -16,20 +16,15 @@ Product Preferences: It identifies which product categories (Product_Category_1,
 
 ## 📈 Exploratory Data Analysis
 
+### Purchase Distribution
+![Purchase Distribution](images/purchase_distribution.png)
+
 ### Age vs Purchase
-![Age vs Purchase](images/age_purchase.png)
+![Age vs Purchase](images/age_vs_purchase.png)
 
-### Gender Spending Distribution
-![Gender Spending](images/gender_spending.png)
+### Gender vs Purchase
+![Gender vs Purchase](images/gender_vs_purchase.png)
 
-### City Category Impact
-![City Category](images/city_category.png)
-
-### Product Category Behaviour
-![Product Category](images/product_category.png)
-
-### Feature Importance
-![Feature Importance](images/feature_importance.png)
 ## ✨ Highlights
 
 * End‑to‑end ML pipeline (EDA → Feature Engineering → Model → Deployment)
