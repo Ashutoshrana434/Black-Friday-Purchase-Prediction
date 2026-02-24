@@ -1,16 +1,18 @@
-import streamlit as st
+import os
 import joblib
 import pandas as pd
-
-# Load files
+import streamlit as st
 from xgboost import XGBRegressor
-import joblib
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Load XGBoost model (JSON format)
 model = XGBRegressor()
-model.load_model("black_friday_model.json")
+model.load_model(os.path.join(BASE_DIR, "black_friday_model.json"))
 
-encoders = joblib.load("encoders.pkl")
-model_columns = joblib.load("model_columns.pkl")
+# Load encoders and columns
+encoders = joblib.load(os.path.join(BASE_DIR, "encoders.pkl"))
+model_columns = joblib.load(os.path.join(BASE_DIR, "model_columns.pkl"))
 
 print("ENCODER TYPE:", type(encoders))
 print("ENCODER CONTENT:", encoders)
