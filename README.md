@@ -3,6 +3,7 @@
 > An end‑to‑end Machine Learning web application that predicts a customer’s **purchase amount** using demographic and product information — built with Python, XGBoost, and Streamlit, and deployed to the cloud for real‑time inference.
 
 **Customer Behavior Analysis**
+
 The project focuses on understanding the "how" and "why" behind customer spending.
 
 Spending Patterns: It analyzes how much different groups of people spend on specific product categories.
