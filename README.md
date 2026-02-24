@@ -1,4 +1,4 @@
-# 🛍️ Black Friday Retail Purchase Prediction
+# 🛍️ Black Friday Purchase Prediction
 
 > An end‑to‑end Machine Learning web application that predicts a customer’s **purchase amount** using demographic and product information — built with Python, XGBoost, and Streamlit, and deployed to the cloud for real‑time inference.
 
